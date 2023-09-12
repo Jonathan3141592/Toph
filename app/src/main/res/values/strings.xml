@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Toph</string>
+    <string name="Welcome">Bienvenido,</string>
+    <string name="Log_In">Inicia sesion</string>
+    <string name="Forgot_Password">¿Olvidaste Tu contraseña?</string>
+    <string name="Email">Correo</string>
+    <string name="Password">Contraseña</string>
+    <string name="To_Log_In">Iniciar Sesion</string>
+    <string name="Menu">Menú</string>
+</resources>
