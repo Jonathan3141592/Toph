@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView correo = (TextView) findViewById(R.id.correo);
         TextView contraseña = (TextView) findViewById(R.id.contraseña);
-        Button boton = (Button) findViewById(R.id.IniciarSesion);
+        Button boton = (Button) findViewById(R.id.Iniciar_Sesion);
 
         if(correo.getText().toString().toLowerCase().equals("admin@gmail.com") && contraseña.getText().toString().equals("admin123")){
             Toast.makeText(this,"Inicio de sesion exitosa", Toast.LENGTH_LONG).show();
@@ -30,5 +30,17 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this,"Correo o Contraseña Incorrectos", Toast.LENGTH_LONG).show();
 
 
+    }
+    public void IrCalendario(View view ){
+        setContentView(R.layout.calendario);
+    }
+    public void IrConfiguracion(View view ){
+        setContentView(R.layout.configuracion);
+    }
+    public void IrCuentas(View view ){
+        setContentView(R.layout.cuentas);
+    }
+    public void IrAcercaDe(View view ){
+        setContentView(R.layout.acerca_de);
     }
 }
